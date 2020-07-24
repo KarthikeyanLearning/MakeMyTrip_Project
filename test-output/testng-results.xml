@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="16259" started-at="2020-07-24T09:48:05Z" finished-at="2020-07-24T09:48:22Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestCaseRunner2.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.makemytrip.runner.TestCaseRunner2@59494225]" name="feature" class="com.qa.makemytrip.runner.TestCaseRunner2"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="MakeMyTrip Test" duration-ms="16259" started-at="2020-07-24T09:48:05Z" finished-at="2020-07-24T09:48:22Z">
+      <class name="com.qa.makemytrip.runner.TestCaseRunner2">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.qa.makemytrip.runner.TestCaseRunner2@59494225]" name="setUpClass" is-config="true" duration-ms="310" started-at="2020-07-24T09:48:05Z" finished-at="2020-07-24T09:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.qa.makemytrip.runner.TestCaseRunner2@59494225]" name="feature" duration-ms="14009" started-at="2020-07-24T09:48:06Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-24T09:48:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[am goint to test makemytrip application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.qa.makemytrip.runner.TestCaseRunner2@59494225]" name="tearDownClass" is-config="true" duration-ms="1808" started-at="2020-07-24T09:48:20Z" finished-at="2020-07-24T09:48:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qa.makemytrip.runner.TestCaseRunner2 -->
+    </test> <!-- MakeMyTrip Test -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

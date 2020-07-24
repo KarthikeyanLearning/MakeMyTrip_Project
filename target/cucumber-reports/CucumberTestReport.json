@@ -1,0 +1,52 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "validate login functionality with valid data",
+        "description": "",
+        "id": "am-goint-to-test-makemytrip-application;validate-login-functionality-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9638905681,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open browser and enter makemytrip url",
+            "match": {
+              "location": "HomePageTest.open_browser_and_enter_makemytrip_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4025628285,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify title of the page",
+            "match": {
+              "location": "HomePageTest.verify_title_of_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "am goint to test makemytrip application",
+    "description": "",
+    "id": "am-goint-to-test-makemytrip-application",
+    "keyword": "Feature",
+    "uri": "homePage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@HomePageTest"
+      }
+    ]
+  }
+]
